@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: discord-boss-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python boss_bot.py
